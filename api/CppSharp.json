@@ -1,0 +1,24 @@
+{
+  "projects": [
+    "../../src/Core/CppSharp.csproj",
+    "../../src/AST/CppSharp.AST.csproj"
+  ],
+  "namespaceSummaries": {
+      "CppSharp": "Contains core types related to platform, toolchains and diagnotics.",
+      "CppSharp.AST": "Contains all the AST (Abstract Syntax Tree) related types.",
+      "CppSharp.Generator": "Contains the bindings generation functionality.",
+      "CppSharp.Parser": "Contains the code parsing APIs, Clang bindings and native AST conversion code.",
+      "CppSharp.Runtime": "Contains runtime support code used by the .NET bindings."
+  },
+  "excludeRegexes": [],
+  "outputFormat": "markdown",
+  "outputFolder": "api",
+  "outputFileForEnumerationMembers": false,
+  "outputFrontMatter": true,
+  "outputFrontMatterSlug": true,
+  "slugPrefix": "api",
+  "pathPrefix": "/api",
+  "stripExtensionFromLinks": true,
+  "outputJsonIndex": true,
+  "splitOutputFilesByDirectory": true
+}
